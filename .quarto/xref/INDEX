@@ -1,0 +1,50 @@
+{
+  "index.qmd": {
+    "index.html": "9e4b1cd7"
+  },
+  "about.qmd": {
+    "about.html": "5b54531d"
+  },
+  "posts/post-with-code/index.qmd": {
+    "index.html": "0345bebd"
+  },
+  "posts/welcome/index.qmd": {
+    "index.html": "6f0dd665"
+  },
+  "projects.qmd": {
+    "projects.html": "50e3551d"
+  },
+  "resume.qmd": {
+    "resume.html": "6a39cfb9"
+  },
+  "posts/assignment/index.qmd": {
+    "index.html": "b719959f"
+  },
+  "Events.qmd": {
+    "Events.html": "4cedf288"
+  },
+  "event/CISON/index.qmd": {
+    "index.html": "b632854e"
+  },
+  "event/Regberegbe/index.qmd": {
+    "index.html": "67575ae7"
+  },
+  "event/BBVF/index.qmd": {
+    "index.html": "15375d33"
+  },
+  "event/DRMC/index.qmd": {
+    "index.html": "fb7a089d"
+  },
+  "event/Elites/index.qmd": {
+    "index.html": "69d7a9d2"
+  },
+  "event/Ijebu mi/index.qmd": {
+    "index.html": "ace033e8"
+  },
+  "CV/index.qmd": {
+    "index.html": "2584b2ea"
+  },
+  "resume/index.qmd": {
+    "index.html": "57808bc6"
+  }
+}

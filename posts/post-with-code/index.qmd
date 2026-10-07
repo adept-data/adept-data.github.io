@@ -1,0 +1,13 @@
+---
+title: "Post With Code"
+author: "Yusuf Akintunde Azeez"
+date: "`r Sys.Date()`"
+categories: [news, code, analysis]
+image: "image.jpg"
+---
+
+This is a post with executable code.
+
+```{r}
+1 + 1
+```

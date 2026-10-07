@@ -1,0 +1,10 @@
+{
+  "listingMap": {
+    "Events.qmd": [
+      "event"
+    ],
+    "projects.qmd": [
+      "posts"
+    ]
+  }
+}

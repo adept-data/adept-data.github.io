@@ -1,0 +1,60 @@
+project:
+  type: website
+  output-dir: docs
+  
+website:
+  title: "Yusuf Akintunde Azeez"
+  favicon: "images/Adept.jpg"
+  search: 
+    location: navbar
+    type: textbox
+  page-footer:
+    center: |
+      [Contact Yusuf Akintunde A.](mailto:akintunde2112@gmail.com)
+    left: |
+      Made with [Quarto](https://quarto.org/)
+    right: |
+      [Github Code Repo](https://github.com/adept-data)
+    background: "#9b30ff"
+    
+  navbar:
+    logo: /images/Aare2.jpeg
+    background: "#9B30FF"
+  
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Projects
+        href: projects.qmd
+      - text: Resume
+        href: resume/index.qmd
+      - text: Events
+        href: Events.qmd
+        
+    
+    right:
+      - icon: github
+        text: "Github"
+        aria-label: "Github"
+        href: https://github.com/adept-data
+      - icon: twitter
+        text: "X"
+        aria-label: "X"
+        href: https://x.com/aareakintunde
+      - icon: linkedin
+        text: "Linkedin"
+        aria-label: "Linkedin"
+        href: https://www.linkedin.com/in/adept-data
+      - icon: google scholar
+        text: "Google Scholar"
+        aria-label: "Google Scholar"
+        href: https://scholar.google.com/citations?hl=en&user=6Q3wb9UAAAAJ
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: [cosmo, theme_dark_custom.scss]
+    css: styles.css
+
+editor: visual
+

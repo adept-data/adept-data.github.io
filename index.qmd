@@ -1,0 +1,35 @@
+---
+title: "Yusuf Akintunde Azeez"
+image: images/Aare1.jpeg
+about:
+  template: jolla
+  image-width: 20em
+  image-shape: round
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://x.com/aareakintunde
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/adept-data
+    - icon: github
+      text: Github
+      href: https://github.com/adept-data/
+    - icon: envelope
+      text: Contact me
+      href: mailto:adeptdatasolution1@gmail.com
+---
+
+**Yusuf Akintunde Azeez (Aare)** is an accomplished Statistician, researcher, and public-sector professional with over twenty (20) years of experience in the analysis, interpretation, and application of complex data for planning, research, and decision-making. He possesses strong practical knowledge of statistical tools and methodologies, with proven competence in sampling, data validation, statistical modelling, research design, and the use of computer-based analytical applications.
+
+He has a broad understanding of statistical concepts, methods, and models, complemented by strong commercial awareness, excellent presentation skills, effective verbal communication, and sound organisational ability. His professional interest is centred on research, data-driven decision-making, process improvement, and the continuous evaluation and recommendation of procedures that support institutional efficiency and the achievement of corporate objectives.
+
+Aare Akintunde Yusuf began his professional development at the **Nigerian Railway Traffic Training School, Enugu**, where he obtained a **Proficiency Certificate in Traffic and Commercial Operations of Railway Activities**. He subsequently undertook a **Professional Diploma in Statistics (PDS) at the University of Ibadan** before proceeding to **Kwara State Polytechnic, Ilorin**, where he obtained both a **National Diploma in Mathematics and Statistics** and a **Higher National Diploma in Statistics**, graduating with **Distinction**.
+
+In pursuit of further academic advancement, he proceeded to **Ahmadu Bello University, Zaria**, for postgraduate studies in Statistics. He later obtained a **Master’s degree in Statistics from Bells University of Technology, Ota, Ogun State**. Demonstrating a strong commitment to continuous learning and academic excellence, and in response to the long-standing HND/B.Sc. dichotomy in Nigeria, he returned to university to earn a **Bachelor of Science degree in Applied Mathematics from Bells University of Technology**, graduating with **First Class Honours**.
+
+Professionally, Aare is a member of the **Chartered Institute of Statisticans of Nigeria** (CISON) and currently serves as the **South-West Coordinator of the International Association for Statistical Computing (IASC)**. He is also the **Public Relations Officer of the Chartered Institute of Statisticians of Nigeria, Lagos State Chapter**.
+
+Beyond his professional and academic engagements, he is actively involved in community leadership and service. He is the **current and Pioneer President of De Royal Ambassadors of Imota**, and also holds the traditional/community titles of **Agba-Akin** and **Otun-Giwa Bobaseye of Imota**.
+
+Aare Akintunde Yusuf's profile reflects a combination of academic distinction, professional competence, leadership, and commitment to service. His journey demonstrates resilience, continuous self-development, and a firm belief in the power of statistics, research, and informed analysis to improve institutions and society.

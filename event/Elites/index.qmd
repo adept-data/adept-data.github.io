@@ -1,0 +1,9 @@
+---
+title: "The United Patriciate Club of Nigeria"
+author: "Aare Akintunde"
+data: "`r Sys.Date()`"
+format: html
+execute:
+  echo: true
+---
+
