@@ -29,7 +29,7 @@ website:
       - text: Resume
         href: resume/index.qmd
       - text: Events
-        href: Events.qmd
+        href: event/index.qmd
         
     
     right:
@@ -56,5 +56,5 @@ format:
       dark: [cosmo, theme_dark_custom.scss]
     css: styles.css
 
-editor: visual
+editor: source
 

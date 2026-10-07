@@ -3,7 +3,7 @@
     "path": "~/my_portfolio/adept-data.github.io/_quarto.yml",
     "project_path": "_quarto.yml",
     "type": "yaml",
-    "hash": "2602980123",
+    "hash": "1788489",
     "contents": "",
     "dirty": false,
     "created": 1791400929927.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "3,2",
-        "scrollLine": "0"
+        "cursorPosition": "33,4",
+        "scrollLine": "23"
     },
     "folds": "",
-    "lastKnownWriteTime": 1791401415,
+    "lastKnownWriteTime": 1791403564,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1791401415651,
+    "last_content_update": 1791403564612,
     "read_only": false,
     "read_only_alternatives": []
 }

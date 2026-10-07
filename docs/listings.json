@@ -1,12 +1,12 @@
 [
   {
-    "listing": "/Events.html",
+    "listing": "/event/index.html",
     "items": [
-      "/event/BBVF/index.html",
       "/event/CISON/index.html",
+      "/event/BBVF/index.html",
       "/event/DRMC/index.html",
       "/event/Elites/index.html",
-      "/event/Ijebu mi/index.html",
+      "/event/Ijebunimi/index.html",
       "/event/Regberegbe/index.html"
     ]
   },

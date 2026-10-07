@@ -46,5 +46,14 @@
   },
   "resume/index.qmd": {
     "index.html": "57808bc6"
+  },
+  "404.qmd": {
+    "404.html": "b7207863"
+  },
+  "event/index.qmd": {
+    "index.html": "d84cf36c"
+  },
+  "event/Ijebunimi/index.qmd": {
+    "index.html": "63f34dda"
   }
 }

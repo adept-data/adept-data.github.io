@@ -1,7 +1,12 @@
 {
   "listingMap": {
-    "Events.qmd": [
-      "event"
+    "event\\index.qmd": [
+      "CISON/index.qmd",
+      "BBVF/index.qmd",
+      "DRMC/index.qmd",
+      "Elites/index.qmd",
+      "Ijebunimi/index.qmd",
+      "Regberegbe/index.qmd"
     ],
     "projects.qmd": [
       "posts"
