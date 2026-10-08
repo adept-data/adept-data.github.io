@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  #resources:
+  #  - "_ext-files/*"
   
 website:
   title: "Yusuf Akintunde Azeez"
@@ -24,8 +26,8 @@ website:
     left:
       - text: Home
         href: index.qmd
-      - text: Projects
-        href: projects.qmd
+      - text: Members
+        href: Members/index.qmd
       - text: Resume
         href: resume/index.qmd
       - text: Events

@@ -8,8 +8,10 @@
       "Ijebunimi/index.qmd",
       "Regberegbe/index.qmd"
     ],
-    "projects.qmd": [
-      "posts"
+    "Members\\index.qmd": [
+      "assignment/index.qmd",
+      "post-with-code/index.qmd",
+      "welcome/index.qmd"
     ]
   }
 }

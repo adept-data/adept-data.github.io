@@ -11,11 +11,11 @@
     ]
   },
   {
-    "listing": "/projects.html",
+    "listing": "/Members/index.html",
     "items": [
-      "/posts/assignment/index.html",
-      "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html"
+      "/Members/assignment/index.html",
+      "/Members/post-with-code/index.html",
+      "/Members/welcome/index.html"
     ]
   }
 ]
