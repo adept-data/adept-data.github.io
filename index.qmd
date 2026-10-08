@@ -15,9 +15,15 @@ about:
     - icon: github
       text: Github
       href: https://github.com/adept-data/
+    - icon: facebook
+      text: Facebook
+      href: https://web.facebook.com/adeptdata
+    - icon: instagram
+      text: Instagram
+      href: https://www.instagram.com/adeptdata
     - icon: envelope
       text: Contact me
-      href: mailto:adeptdatasolution1@gmail.com
+      href: mailto:akintunde2112@gmail.com
 ---
 
 **Yusuf Akintunde Azeez (Aare)** is an accomplished Statistician, researcher, and public-sector professional with over twenty (20) years of experience in the analysis, interpretation, and application of complex data for planning, research, and decision-making. He possesses strong practical knowledge of statistical tools and methodologies, with proven competence in sampling, data validation, statistical modelling, research design, and the use of computer-based analytical applications.

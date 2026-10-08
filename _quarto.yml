@@ -5,7 +5,7 @@ project:
   #  - "_ext-files/*"
   
 website:
-  title: "Yusuf Akintunde Azeez"
+  title: "Aare Akintunde"
   favicon: "images/Adept.jpg"
   search: 
     location: navbar
