@@ -1,10 +1,10 @@
 ---
-title: "Members"
+title: "Trainings"
 title-block-banner: false
 listing:
   contents:
     - "assignment/index.qmd"
-    - "post-with-code/index.qmd"
+    - "R training with GBGAnalyst/index.qmd"
     - "welcome/index.qmd"
   sort: "date desc"
   type: default

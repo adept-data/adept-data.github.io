@@ -1,5 +1,13 @@
 [
   {
+    "listing": "/Training/index.html",
+    "items": [
+      "/Training/assignment/index.html",
+      "/Training/R training with GBGAnalyst/index.html",
+      "/Training/welcome/index.html"
+    ]
+  },
+  {
     "listing": "/event/index.html",
     "items": [
       "/event/CISON/index.html",
@@ -8,14 +16,6 @@
       "/event/Elites/index.html",
       "/event/Ijebunimi/index.html",
       "/event/Regberegbe/index.html"
-    ]
-  },
-  {
-    "listing": "/Members/index.html",
-    "items": [
-      "/Members/assignment/index.html",
-      "/Members/post-with-code/index.html",
-      "/Members/welcome/index.html"
     ]
   }
 ]

@@ -7,9 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Yusuf Akintunde Azeez">
-<meta name="dcterms.date" content="2026-10-08">
 
-<title>Post With Code – Aare Akintunde</title>
+<title>R training with GBGAnalyst – Aare Akintunde</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -304,8 +303,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../Members/index.html"> 
-<span class="menu-text">Members</span></a>
+    <a class="nav-link" href="../../Training/index.html"> 
+<span class="menu-text">Trainings</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../resume/index.html"> 
@@ -349,13 +348,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Post With Code</h1>
-                                <div class="quarto-categories">
-                <div class="quarto-category">news</div>
-                <div class="quarto-category">code</div>
-                <div class="quarto-category">analysis</div>
-              </div>
-                  </div>
+      <h1 class="title">R training with GBGAnalyst</h1>
+                      </div>
   </div>
     
   
@@ -368,12 +362,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
             </div>
     </div>
       
-      <div>
-      <div class="quarto-title-meta-heading">Published</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date">October 8, 2026</p>
-      </div>
-    </div>
     
       
     </div>
@@ -391,15 +379,304 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<p>This is a post with executable code.</p>
+<section id="from-learning-r-to-building-and-publishing-my-data-portfolio" class="level2">
+<h2 class="anchored" data-anchor-id="from-learning-r-to-building-and-publishing-my-data-portfolio">From Learning R to Building and Publishing My Data Portfolio</h2>
+<p>My journey into statistics, programming, data analysis, and data science has always been driven by one central goal: <strong>to move beyond merely understanding statistical concepts and become capable of applying them confidently using modern analytical tools</strong>.</p>
+<p>As part of that journey, I undertook an intensive programming and data-analysis training programme with <strong>GBG Analytics</strong>, running from <strong>21 July to 7 October 2026</strong>.</p>
+<p>The training used a <strong>lab-based approach</strong>, with emphasis on practical learning, hands-on exercises, demonstrations, assignments, independent practice, and supporting video materials. This approach meant that the programme was not simply about watching someone write code or memorising R functions. I was required to write the code myself, work with datasets, make mistakes, troubleshoot errors, create visualisations, document my analysis, and gradually develop complete analytical projects.</p>
+<p>That practical method made R considerably easier for me.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/R.jpeg" class="img-fluid figure-img"></p>
+<figcaption>R language symbol</figcaption>
+</figure>
+</div>
+<p>Before the training, R sometimes appeared to be a collection of unfamiliar functions, symbols, packages, brackets, and error messages. As the training progressed, however, I began to understand the logic behind the language and, more importantly, how the different components of the data-analysis process connect.</p>
+<p>The programme covered <strong>Introduction to R Programming, data manipulation and cleaning, data visualisation with ggplot2 and Base R, data merging and joining, Markdown and reproducible reporting, Quarto publishing, and Git/GitHub</strong>.</p>
+<p>What made the programme especially valuable was that these topics were not treated as isolated subjects. They gradually came together to form a complete workflow—from raw data to a finished analytical product published on the web.</p>
+</section>
+<section id="introduction-to-r-programming" class="level2">
+<h2 class="anchored" data-anchor-id="introduction-to-r-programming">Introduction to R Programming</h2>
+<p>The training began with the fundamentals of <strong>R programming</strong>.</p>
+<p>This stage helped me understand how R stores and processes information and how analytical operations are built from relatively simple components.</p>
+<p>I learnt how to create objects and assign values using expressions such as:</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="dv">10</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
+<p>We explored major R data types, including numeric, integer, character, logical and factor variables, as well as important data structures such as vectors, matrices, lists, factors and data frames.</p>
+<p>For example:</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>age <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">25</span>, <span class="dv">31</span>, <span class="dv">28</span>, <span class="dv">40</span>, <span class="dv">36</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
+<p>creates a numeric vector containing five observations.</p>
+<p>I became familiar with fundamental functions such as <code>mean()</code> for arithmetic means, <code>median()</code> for the middle value, <code>sum()</code> for totals, <code>min()</code> and <code>max()</code> for extreme values, and <code>sd()</code> for standard deviation.</p>
+<p>Functions such as <code>summary()</code>, <code>str()</code>, <code>head()</code>, <code>tail()</code>, <code>table()</code>, <code>unique()</code>, <code>length()</code> and <code>is.na()</code> became important tools for understanding and checking datasets.</p>
+<p>The training helped me appreciate an important principle: <strong>before analysing data, the analyst must first understand the data</strong>.</p>
+<p>Knowing how R represents numeric, categorical, logical, and missing information is fundamental because the structure and type of a variable determine which analytical techniques are appropriate.</p>
+</section>
+<section id="data-manipulation-and-cleaning" class="level2">
+<h2 class="anchored" data-anchor-id="data-manipulation-and-cleaning">Data Manipulation and Cleaning</h2>
+<p>The next important area was <strong>data manipulation and data cleaning</strong>.</p>
+<p>Real-world data rarely arrive in a perfectly organised state. Data may contain missing observations, poorly labelled variables, duplicates, inconsistent categories, unnecessary columns, incorrect data types, or information that needs to be transformed before meaningful analysis can begin.</p>
+<p>I therefore learnt to use the <code>dplyr</code> package extensively.</p>
+<p>Functions such as <code>select()</code> allow an analyst to choose particular variables, while <code>filter()</code> makes it possible to retain observations satisfying specific conditions.</p>
+<p>For example:</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># data |&gt;</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co">#  filter(age &gt;= 18)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p>can retain observations where age is at least 18.</p>
+<p>I learnt to use <code>arrange()</code> for sorting data, <code>mutate()</code> for creating new variables, <code>rename()</code> for changing variable names, <code>distinct()</code> for dealing with unique records, and <code>count()</code> for obtaining category frequencies.</p>
+<p>The combination of <code>group_by()</code> and <code>summarise()</code> was particularly useful because it allowed me to calculate statistics separately for meaningful groups.</p>
+<p>For example:</p>
+<p><code>data |&gt;   group_by(gender) |&gt;   summarise(     mean_income = mean(income, na.rm = TRUE)   )</code> This kind of workflow can answer questions such as:</p>
+<blockquote class="blockquote">
+<p>What is average income by gender?</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>What is total revenue by region?</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>How many observations belong to each category?</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>What is the average score across departments?</p>
+</blockquote>
+<p>I also became more comfortable with R’s pipe operator:</p>
+<p>The Native Pipe <code>|&gt;</code> or The Magrittr Pipe <code>%&gt;%</code></p>
+<p>which makes a sequence of analytical operations easier to read.</p>
+<p>Gradually, my understanding of analysis developed into a workflow:</p>
+<p><strong>Import → Inspect → Clean → Transform → Group → Summarise → Analyse → Visualise → Communicate.</strong></p>
+</section>
+<section id="data-visualisation-using-ggplot2" class="level2">
+<h2 class="anchored" data-anchor-id="data-visualisation-using-ggplot2">Data Visualisation Using ggplot2</h2>
+<p>One of the most enjoyable parts of the programme was <strong>data visualisation</strong>.</p>
+<p>I learnt that visualisation is much more than making a report colourful. A good graph should have a purpose. It should reveal a trend, highlight a difference, expose a relationship, show a distribution, or make a statistical message easier to understand.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/plots.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<p>One of the major packages explored was <strong><code>ggplot2</code></strong>.</p>
+<p>With <code>ggplot2</code>, I learnt the concept of constructing visualisations through layers.</p>
+<p>A typical graph may begin with:</p>
+<pre><code>ggplot(data, aes(x = age, y = income))</code></pre>
+<p>and then have a geometry added:</p>
+<pre><code>geom_point()</code></pre>
+<p>The <code>aes()</code> function defines how variables are mapped to visual properties such as the x-axis, y-axis, colour, fill, size, or shape.</p>
+<p>Different <code>geom_*()</code> functions allow the analyst to create different kinds of graphs.</p>
+<p><code>geom_point()</code> is useful for scatterplots.</p>
+<p><code>geom_bar()</code> displays counts of categorical observations.</p>
+<p><code>geom_col()</code> is useful when bar heights have already been calculated.</p>
+<p><code>geom_line()</code> is particularly valuable when examining trends across time or another ordered variable.</p>
+<p><code>geom_histogram()</code> helps reveal the distribution of continuous data.</p>
+<p><code>geom_boxplot()</code> provides information about distributions, median values, spread, and potential outliers.</p>
+<p><code>geom_smooth()</code> can be used to display a fitted relationship between variables.</p>
+<p>I also learnt about <code>facet_wrap()</code> and <code>facet_grid()</code> for creating separate panels for different groups.</p>
+<p>Functions such as <code>labs()</code> make it possible to add meaningful titles, subtitles, axis labels, and captions, while themes such as <code>theme_minimal()</code>, <code>theme_classic()</code> and <code>theme_bw()</code> help control the appearance of the final visualisation.</p>
+<p>The broader concepts of <strong>aesthetics, geometry, scales, layers, coordinates, themes, legends, and faceting</strong> became much clearer to me during the training.</p>
+</section>
+<section id="data-visualisation-using-base-r" class="level2">
+<h2 class="anchored" data-anchor-id="data-visualisation-using-base-r">Data Visualisation Using Base R</h2>
+<p>Alongside <code>ggplot2</code>, I was also introduced to <strong>Base R graphics</strong>.</p>
+<p>This provided another perspective on visualisation and demonstrated that R contains built-in graphical capabilities even without additional packages.</p>
+<p>Some important functions included:</p>
+<pre><code>plot() hist() barplot() boxplot() pie()</code></pre>
+<p>For example:</p>
+<pre><code>hist(data$income)</code></pre>
+<p>can quickly display the distribution of income.</p>
+<p>Similarly:</p>
+<pre><code>boxplot(data$income)</code></pre>
+<p>can provide information about the median, variability, and possible outliers.</p>
+<p>Working with both Base R and <code>ggplot2</code> helped me appreciate their different strengths.</p>
+<p>Base R can be excellent for rapid exploratory work, while <code>ggplot2</code> offers a more structured, layered, and highly customisable approach to creating publication-quality visualisations.</p>
+</section>
+<section id="data-merging-and-joining" class="level2">
+<h2 class="anchored" data-anchor-id="data-merging-and-joining">Data Merging and Joining</h2>
+<p>Another important component of the training was <strong>merging and joining datasets</strong>.</p>
+<p>In real analytical work, information is frequently spread across multiple files.</p>
+<p>One table might contain demographic information while another contains transactions. A third might contain geographical information.</p>
+<p>To analyse them together, they must be joined correctly.</p>
+<p>I learnt functions including:</p>
+<pre><code>left_join() right_join() inner_join() full_join()</code></pre>
+<p>A <code>left_join()</code> retains all observations from the first dataset and adds matching information from the second.</p>
+<p>An <code>inner_join()</code> keeps only observations whose keys exist in both datasets.</p>
+<p>A <code>full_join()</code> retains observations from both sides whether or not a match exists.</p>
+<p>The training also highlighted the importance of understanding <strong>keys, identifiers, duplicates and matching variables</strong>.</p>
+<p>This was an important lesson because a badly executed join can silently multiply observations and produce perfectly calculated statistics from completely incorrect data. Data analysis has a mischievous sense of humour that way.</p>
+</section>
+<section id="markdown-and-reproducible-reporting" class="level2">
+<h2 class="anchored" data-anchor-id="markdown-and-reproducible-reporting">Markdown and Reproducible Reporting</h2>
+<p>The training introduced me to <strong>Markdown</strong>, which later became very important for working with reproducible reports.</p>
+<p>Markdown provides a simple syntax for structuring written content.</p>
+<p>For example:</p>
+<pre><code># Main Heading  ## Subheading  **Bold text**  *Italic text*</code></pre>
+<p>This allowed me to understand how analytical writing could be structured without depending entirely on traditional word-processing software.</p>
+<p>From Markdown, the programme progressed into the wider concept of <strong>reproducible reporting</strong>.</p>
+<p>This became one of the most important parts of the training for me.</p>
+<p>In a conventional workflow, an analyst may analyse data in R, save graphs manually, copy tables into Word, type statistical values into paragraphs, and then have to repeat those processes whenever the underlying data change.</p>
+<p>That creates several opportunities for inconsistency.</p>
+<p>A graph may be updated while the accompanying paragraph still reports an old figure. A table may contain a newly calculated value while the executive summary contains yesterday’s number.</p>
+<p>Reproducible reporting provides a better approach by connecting the <strong>data, analytical code, results, graphs, tables, interpretation, and final document</strong>.</p>
+</section>
+<section id="quarto-from-r-analysis-to-professional-publishing" class="level2">
+<h2 class="anchored" data-anchor-id="quarto-from-r-analysis-to-professional-publishing">Quarto: From R Analysis to Professional Publishing</h2>
+<p><strong>Quarto was one of the most important and transformative topics I encountered during the programme.</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/quarto.jpeg" class="img-fluid figure-img"></p>
+<figcaption>quarto logo</figcaption>
+</figure>
+</div>
+<p>Initially, I understood Quarto mainly as a way of producing reports. As the training progressed, however, I discovered that its capabilities extend far beyond traditional reporting.</p>
+<p>Quarto provides an environment in which an analyst can combine <strong>R code, explanatory writing, statistical results, tables, visualisations, equations, citations, references, and conclusions within a single reproducible project</strong>.</p>
+<p>A standard Quarto document normally uses the <code>.qmd</code> extension.</p>
+<p>For example:</p>
+<pre><code>analysis.qmd</code></pre>
+<p>A Quarto document can contain three major building blocks:</p>
+<p><strong>YAML</strong>, which controls the document;</p>
+<p><strong>Markdown</strong>, which contains the written explanation;</p>
+<p>and <strong>R code chunks</strong>, which perform the actual calculations and generate output.</p>
+<p>A simple Quarto document can therefore contain something like:</p>
+<pre><code>--- title: "Statistical Analysis" author: "Aare" format: html ---  # Introduction  This report presents an analysis conducted in R.  ```{r} summary(mtcars) ```</code></pre>
+<p>When the document is rendered, the R code is executed and the results are inserted automatically into the finished publication.</p>
+<p>This was a major shift in the way I thought about reporting.</p>
+<p>Instead of:</p>
+<p><strong>Analyse → Copy → Paste → Edit → Repeat</strong></p>
+<p>Quarto makes a workflow such as this possible:</p>
+<p><strong>Data → R Code → Statistical Analysis → Graphs and Tables → Interpretation → Render → Finished Publication</strong></p>
+<p>Another useful concept was controlling what the reader sees.</p>
+<p>For example:</p>
+<pre><code>#| echo: false</code></pre>
+<p>allows the R code to execute without displaying the code itself in the final publication.</p>
+<p>This is useful when preparing analytical reports for readers who need the findings but do not necessarily need to see every line of programming behind them.</p>
+<section id="publishing-to-different-formats" class="level3">
+<h3 class="anchored" data-anchor-id="publishing-to-different-formats">Publishing to Different Formats</h3>
+<p>Another major strength of Quarto is that a single source project can be published in several forms.</p>
+<p>I learnt how Quarto can support outputs such as <strong>HTML reports, Microsoft Word documents, PDF reports, presentations, books, technical documentation, blogs, and complete websites</strong>.</p>
+<p>This made me understand Quarto not simply as a document-writing tool but as a genuine <strong>publishing system for data professionals</strong>.</p>
+<p>The same analytical work can therefore move from an R environment into something suitable for colleagues, researchers, managers, students, clients, or the general public.</p>
+</section>
+</section>
+<section id="creating-and-publishing-websites-with-quarto" class="level2">
+<h2 class="anchored" data-anchor-id="creating-and-publishing-websites-with-quarto">Creating and Publishing Websites with Quarto</h2>
+<p>Perhaps one of the most exciting discoveries was learning that <strong>Quarto can be used to create and publish a complete website</strong>.</p>
+<p>This considerably expanded my understanding of what an analyst can achieve with R-related tools.</p>
+<p>A Quarto website can contain several interconnected pages such as:</p>
+<p><strong>Home, About, Projects, Portfolio, Research, Publications, Blog, Resources, and Contact pages.</strong></p>
+<p>Each page can be written as a <code>.qmd</code> document.</p>
+<p>A project-level file named:</p>
+<pre><code>_quarto.yml</code></pre>
+<p>can then control the overall structure of the website.</p>
+<p>This file can define the website title, navigation menu, themes, page structure, links, search functionality and other publishing settings.</p>
+<p>A typical project could therefore look like:</p>
+<pre><code>portfolio/ │ ├── _quarto.yml ├── index.qmd ├── about.qmd ├── projects.qmd └── contact.qmd</code></pre>
+<p>Quarto then connects those individual files into a complete website.</p>
+<p>This was especially meaningful because the training did not end at theoretical knowledge.</p>
+<p><strong>I applied what I learnt by creating my own data portfolio website:</strong></p>
+<section id="adept-data.github.io" class="level3">
+<h3 class="anchored" data-anchor-id="adept-data.github.io">adept-data.github.io</h3>
+<p>Building my portfolio represented an important milestone in the programme.</p>
+<p>It gave me an online platform where I can continue to showcase my development in <strong>R programming, statistics, data analysis, data visualisation, reproducible reporting, Quarto, and other areas of data science</strong>.</p>
+<p>The experience showed me how several apparently separate skills can combine into one complete project.</p>
+<p>The R projects provide the analytical substance.</p>
+<p>Markdown provides the written content.</p>
+<p>Quarto provides the website structure and publishing system.</p>
+<p>Git tracks the development history.</p>
+<p>GitHub stores the repository.</p>
+<p>GitHub Pages makes the resulting website available online.</p>
+<p>The complete journey can therefore be represented as:</p>
+<blockquote class="blockquote">
+<p><strong>Learn R → Analyse Data → Create Visualisations → Document the Analysis → Build with Quarto → Track with Git → Publish through GitHub → Share a Professional Portfolio</strong></p>
+</blockquote>
+<p>That was one of the most significant practical outcomes of the training.</p>
+<p><strong>I did not merely learn that Quarto can build websites. I built and published one myself.</strong></p>
+<p>For a data analyst, this is particularly valuable because the portfolio becomes more than a résumé. It becomes living evidence of practical ability.</p>
+</section>
+</section>
+<section id="git-and-github" class="level2">
+<h2 class="anchored" data-anchor-id="git-and-github">Git and GitHub</h2>
+<p>The programme also introduced me to <strong>Git and GitHub</strong>, which completed another important part of the modern data-science workflow.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/github.jpeg" class="img-fluid figure-img"></p>
+<figcaption>Github</figcaption>
+</figure>
+</div>
+<p>Git is a <strong>version-control system</strong> that allows changes to project files to be tracked over time.</p>
+<p>This provides a much better alternative to keeping multiple confusing copies of the same analysis with filenames such as:</p>
+<pre><code>analysis_final.R analysis_final2.R analysis_final_corrected.R analysis_final_corrected_latest.R analysis_REAL_FINAL.R</code></pre>
+<p>Git allows project development to be recorded systematically.</p>
+<p>I became familiar with commands and concepts such as:</p>
+<pre><code>git init git status git add git commit git push git pull git clone</code></pre>
+<p>I also learnt about repositories, commits, branches, remote repositories, merging, and project history.</p>
+<p>GitHub complements Git by providing an online platform where repositories can be stored, shared, reviewed, collaborated on, and published.</p>
+<p>For me, its importance became even more obvious when it was connected to my <strong>Quarto portfolio website</strong>.</p>
+<p>Git and GitHub therefore became more than tools for storing code.</p>
+<p>They became part of a workflow for <strong>documenting, managing and publishing my professional work</strong>.</p>
+</section>
+<section id="a-training-built-around-practice" class="level2">
+<h2 class="anchored" data-anchor-id="a-training-built-around-practice">A Training Built Around Practice</h2>
+<p>An important strength of my experience with <strong>GBG Analytics</strong> was the lab-based nature of the programme.</p>
+<p>The training involved practical demonstrations, hands-on exercises, assignments, coding practice, troubleshooting, independent experimentation, and video resources that I could revisit whenever necessary.</p>
+<p>This reinforced an important truth about programming:</p>
+<p><strong>you cannot become comfortable with code merely by watching somebody else write it.</strong></p>
+<p>You have to write it.</p>
+<p>You have to break it.</p>
+<p>You have to wonder why an error message has suddenly developed a personal grudge against you.</p>
+<p>Then you have to investigate, correct the mistake, and try again.</p>
+<p>That process gradually builds confidence.</p>
+<p>The supporting videos were particularly valuable because they made it possible to revisit difficult areas, repeat demonstrations, and practise concepts at my own pace.</p>
+</section>
+<section id="what-the-training-changed-for-me" class="level2">
+<h2 class="anchored" data-anchor-id="what-the-training-changed-for-me">What the Training Changed for Me</h2>
+<p>The greatest benefit of the programme was not simply learning more R functions.</p>
+<p>It changed the way I understand the <strong>entire analytical process</strong>.</p>
+<p>I now see data analysis as a connected sequence:</p>
+<p><strong>Define the question → Import the data → Inspect → Clean → Transform → Merge → Analyse → Visualise → Interpret → Document → Reproduce → Version-control → Publish → Communicate.</strong></p>
+<p>That wider perspective is important.</p>
+<p>A data analyst is not simply someone who knows how to calculate a mean or run a model.</p>
+<p>A strong analyst must understand the underlying data, select appropriate analytical methods, write understandable code, design meaningful visualisations, explain findings clearly, make the work reproducible, preserve its history, and communicate the final product to other people.</p>
+</section>
+<section id="my-experience-with-gbg-analytics" class="level2">
+<h2 class="anchored" data-anchor-id="my-experience-with-gbg-analytics">My Experience with GBG Analytics</h2>
+<p>My training with <strong>GBG Analytics from 21 July to 7 October 2026</strong> represented an important stage in my development as a statistician, programmer and data professional.</p>
+<p>R became considerably easier for me.</p>
+<p>Data manipulation became more systematic.</p>
+<p>Data cleaning became more intentional.</p>
+<p>Visualisation became more meaningful.</p>
+<p>Markdown gave structure to analytical writing.</p>
+<p>Reproducibility changed how I think about reporting.</p>
+<p>Git and GitHub introduced disciplined project management and publishing.</p>
+<p>And Quarto showed me how analytical work can move beyond an R session and become a professional report, presentation, publication, or complete website.</p>
+<p>Most importantly, these skills produced something tangible.</p>
+<section id="i-created-and-published-my-own-portfolio-at-adept-data.github.io." class="level3">
+<h3 class="anchored" data-anchor-id="i-created-and-published-my-own-portfolio-at-adept-data.github.io.">I created and published my own portfolio at <strong>adept-data.github.io</strong>.</h3>
+<p>That transition—from learning R code to publishing my own analytical portfolio—is one of the strongest outcomes of the programme for me.</p>
+</section>
+</section>
+<section id="recommendation" class="level2">
+<h2 class="anchored" data-anchor-id="recommendation">Recommendation</h2>
+<p>For anyone seeking practical training in <strong>R programming, statistics, data analysis, data cleaning, <code>dplyr</code>, data visualisation, Base R graphics, <code>ggplot2</code>, data merging, Markdown, reproducible reporting, Quarto, Git, GitHub, portfolio development, and modern data-science workflows</strong>, I would encourage you to consider <strong>GBG Analytics</strong>.</p>
+<p>Data science can initially look like a collection of disconnected tools.</p>
+<p>R is here.</p>
+<p>Statistics is there.</p>
+<p>Git sits somewhere else.</p>
+<p>Quarto appears from another corner.</p>
+<p>Then someone mentions GitHub, packages, Markdown, joins, YAML, rendering, repositories and websites, and suddenly the learning journey begins to resemble a family meeting where everybody is talking at once.</p>
+<p>Good training helps connect those pieces.</p>
+<p>That was one of the most valuable things this programme did for me.</p>
+<p>The training did not simply make R easier.</p>
+<p>It helped me see how <strong>programming, statistics, visualisation, reproducibility, version control, and publishing belong to the same professional workflow</strong>.</p>
+<p>From writing R code to creating graphs, from manipulating datasets to writing reproducible reports, and from learning Quarto to publishing my own portfolio website, the journey has been practical, challenging, and worthwhile.</p>
+<p><strong>Thank you, GBG Analytics, for making the learning process practical and meaningful.</strong></p>
+<section id="from-learning-r-to-publishing-my-own-data-portfoliothe-journey-continues." class="level3">
+<h3 class="anchored" data-anchor-id="from-learning-r-to-publishing-my-own-data-portfoliothe-journey-continues.">From learning R to publishing my own data portfolio—the journey continues.</h3>
+<p>For my full Portfolio click <a href="https://adept-data.github.io/">here</a></p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

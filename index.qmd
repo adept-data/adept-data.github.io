@@ -6,8 +6,8 @@ about:
   image-width: 20em
   image-shape: round
   links:
-    - icon: twitter
-      text: Twitter
+    - icon: x
+      text: x
       href: https://x.com/aareakintunde
     - icon: linkedin
       text: LinkedIn

@@ -67,5 +67,32 @@
   },
   "Members/welcome/index.qmd": {
     "index.html": "8f33cf16"
+  },
+  "Trainings/assignment/index.qmd": {
+    "index.html": "b78b2466"
+  },
+  "Trainings/index.qmd": {
+    "index.html": "f7cc0f57"
+  },
+  "Trainings/post-with-code/index.qmd": {
+    "index.html": "eb90a252"
+  },
+  "Trainings/welcome/index.qmd": {
+    "index.html": "61223eb8"
+  },
+  "Training/assignment/index.qmd": {
+    "index.html": "d3214f14"
+  },
+  "Training/index.qmd": {
+    "index.html": "92d502b5"
+  },
+  "Training/post-with-code/index.qmd": {
+    "index.html": "3a5f0c4a"
+  },
+  "Training/welcome/index.qmd": {
+    "index.html": "6c9c9911"
+  },
+  "Training/R training with GBGAnalyst/index.qmd": {
+    "index.html": "b3df92cf"
   }
 }

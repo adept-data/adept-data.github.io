@@ -26,8 +26,8 @@ website:
     left:
       - text: Home
         href: index.qmd
-      - text: Members
-        href: Members/index.qmd
+      - text: Trainings
+        href: Training/index.qmd
       - text: Resume
         href: resume/index.qmd
       - text: Events
