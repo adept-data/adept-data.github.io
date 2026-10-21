@@ -1,7 +1,7 @@
 ---
 title: "R training with GBGAnalyst"
 author: "Yusuf Akintunde Azeez"
-data: "`r Sys.Date()`"
+date: today
 ---
 
 ## From Learning R to Building and Publishing My Data Portfolio
