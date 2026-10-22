@@ -45,6 +45,21 @@ The main conference commenced on Wednesday, 14th October, and continued through 
 
 The atmosphere was impressive, and the turnout was remarkable. The hall was filled almost to capacity with an assemblage of accomplished statisticians, academics, researchers, government officials, public sector professionals, private sector practitioners and international participants. There were familiar faces, respected mentors, emerging scholars and distinguished personalities whose professional contributions have significantly influenced statistical development in Nigeria.
 
+::: {layout-nrow=2}
+![](image/g3.jpg)
+
+![](image/l2.jpg)
+
+![](image/w7.jpg)
+
+![](image/f10.jpg)
+
+![](image/g8.jpg)
+
+![](image/f5.jpg)
+:::
+
+
 Looking around the conference hall, I could not help but imagine the magnitude of intellectual capital concentrated within that single geographical location. If statistical expertise were a measurable economic resource, Abuja would certainly have recorded an extraordinary positive shock to its human capital index during those three days!
 
 The conference created an important platform for rigorous intellectual exchanges, technical presentations, institutional reflections and professional engagements. Various sessions addressed issues relating to statistical education, research development, professional practice, institutional capacity and the increasing importance of data-driven decision-making in an evolving world.
@@ -63,6 +78,20 @@ Another outstanding moment was the address delivered by the Statistician-General
 
 His presentation was exceptionally robust, articulate and intellectually engaging. He demonstrated remarkable professional competence, depth of understanding and a commanding appreciation of the strategic role of official statistics in national planning, economic management and governance.
 
+::: {layout-nrow=2}
+![](image/w2.jpg)
+
+![](image/l8.jpg)
+
+![](image/f4.jpg)
+
+![](image/f6.jpg)
+
+![](image/g3.jpg)
+
+![](image/l3.jpg)
+:::
+
 For me, his address was one of the defining moments of the conference. The clarity of his delivery, the confidence with which he articulated his perspectives and the professional authority he brought to the occasion were truly commendable.
 
 If there were a hypothesis test for excellence in professional presentation, I would confidently reject the null hypothesis that his delivery was merely average. The evidence was overwhelmingly persuasive, even without subjecting the audience's applause to a formal significance test!
@@ -78,6 +107,20 @@ What a beautiful coincidence!
 Imagine travelling to Abuja for an international conference, with the expectation of exchanging ideas, presenting research, learning new methods and reconnecting with professional colleagues, only for the joyful news of your elevation to the highest conventional academic rank to arrive during the gathering.
 
 The atmosphere of celebration was genuinely heartwarming. Congratulations came from different directions, and the excitement among colleagues was unmistakable. It was a moment that demonstrated the beauty of academic perseverance and the importance of celebrating the accomplishments of others.
+
+::: {layout-nrow=2}
+![](image/s6.jpg)
+
+![](image/f14.jpg)
+
+![](image/s2.jpg)
+
+![](image/s1.jpg)
+
+![](image/f13.jpg)
+
+![](image/f12.jpg)
+:::
 
 In statistical language, one could describe the development as two highly desirable observations occurring within the same short time interval, although I am certain nobody was interested in testing whether the coincidence was statistically significant. The joy was more than sufficient!
 
@@ -104,6 +147,20 @@ The election was personally exciting because some of the successful candidates w
 I congratulate the newly elected leadership and sincerely hope that their tenure will strengthen the Institute, promote inclusiveness, deepen professional recognition and encourage greater collaboration between academic institutions, government establishments and private sector practitioners.
 
 The anniversary celebration also provided an opportunity to honour deserving members through the conferment of the prestigious Fellowship of CISON. This recognition represents an important acknowledgement of professional accomplishment, dedicated service and contributions to the advancement of statistical science.
+
+::: {layout-nrow=2}
+![](image/w3.jpg)
+
+![](image/l6.jpg)
+
+![](image/f8.jpg)
+
+![](image/s9.jpg)
+
+![](image/g4.jpg)
+
+![](image/f7.jpg)
+:::
 
 Among the distinguished recipients was our own Lagos State Chapter Chairman, Mr. Lawal, whose elevation to Fellowship was a source of considerable pride to members of our chapter. I extend my heartfelt congratulations to him and all the newly conferred Fellows.
 
@@ -141,6 +198,20 @@ The golden jubilee theme, “From Legacy to Leadership,” therefore carries a p
 
 As I reflect on the experience, I am reminded that professional conferences are valuable not only because of the information disseminated but also because of the intellectual curiosity they stimulate, the relationships they strengthen and the new perspectives they bring into focus.
 
+::: {layout-nrow=2}
+![](image/w4.jpg)
+
+![](image/f9.jpg)
+
+![](image/g5.jpg)
+
+![](image/s7.jpg)
+
+![](image/g9.jpg)
+
+![](image/f15.jpg)
+:::
+
 For me, Abuja 2026 produced a remarkably positive balance of professional learning, intellectual engagement, academic celebration, friendship and personal fulfilment.
 
 To the leadership of CISON, the organising committee, distinguished speakers, facilitators, newly elected Council Members, conferred Fellows and every participant who contributed to the success of the golden jubilee, I extend my sincere appreciation.
@@ -154,6 +225,20 @@ The experience reminded me that, although statistical inference is fundamentally
 **Five days of engagement, fifty years of legacy, two celebrated professorial promotions, fresh professional leadership and countless meaningful interactions.**
 
 If I were to construct a confidence interval around my overall assessment of the conference, I am convinced it would lie comfortably within the region of a highly rewarding professional experience. And if there were an outlier, it would probably be the extraordinary level of joy that accompanied those unexpected promotion announcements!
+
+::: {layout-nrow=2}
+![](image/w6.jpg)
+
+![](image/l4.jpg)
+
+![](image/w5.jpg)
+
+![](image/f15.jpg)
+
+![](image/exco.jpg)
+
+![](image/w18.jpg)
+:::
 
 As CISON begins another chapter in its institutional journey, may its future be characterised by greater professional recognition, stronger intellectual contributions, institutional integrity and meaningful influence on national development.
 
@@ -171,10 +256,10 @@ Long live the Federal Republic of Nigeria! 🇳🇬
 
 **Conference documents and reference links**
 
-- CISON 50th Anniversary Brochure: \[INSERT URL HERE\]
+- CISON 50th Anniversary Brochure: [INSERT URL HERE]
 
-- Keynote Address: \[INSERT URL HERE\]
+- Keynote Address: [INSERT URL HERE]
 
-- Statistician-General's Address: \[INSERT URL HERE\]
+- Statistician-General's Address: [INSERT URL HERE]
 
-- CISON Governing Council Election Results: \[INSERT URL HERE\]
+- CISON Governing Council Election Results: [INSERT URL HERE]

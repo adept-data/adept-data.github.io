@@ -1,7 +1,5 @@
 ---
 title: "De Royal Ambassador"
-author: "Aare Akintunde"
-data: "`r Sys.Date()`"
 format: html
 execute:
   echo: true

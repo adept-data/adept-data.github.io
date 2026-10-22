@@ -6,7 +6,7 @@ project:
   
 website:
   title: "Aare Akintunde"
-  favicon: "images/Adept.jpg"
+  favicon: "images/omoakin.jpeg"
   search: 
     location: navbar
     type: textbox
@@ -20,7 +20,7 @@ website:
     background: "#9b30ff"
     
   navbar:
-    logo: /images/Aare2.jpeg
+    logo: /images/omoakin.jpeg
     background: "#9B30FF"
   
     left:
