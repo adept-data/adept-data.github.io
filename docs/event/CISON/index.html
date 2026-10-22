@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Aare Akintunde">
 
-<title>CISON 49TH Conference – Aare Akintunde</title>
+<title>CISON – Aare Akintunde</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -35,6 +34,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
 <link href="../../images/Adept.jpg" rel="icon" type="image/jpeg">
+<script src="../../site_libs/quarto-listing/list.min.js"></script>
+<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
@@ -75,12 +76,70 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -310,29 +369,25 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">CISON 49TH Conference</h1>
+<h1 class="title">CISON</h1>
 </div>
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page-left">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Aare Akintunde </p>
-          </div>
-  </div>
     
   
     
@@ -343,73 +398,53 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="report-on-the-2nd-cison-international-conference-and-49th-annual-conference" class="level2">
-<h2 class="anchored" data-anchor-id="report-on-the-2nd-cison-international-conference-and-49th-annual-conference">REPORT ON THE 2ND CISON INTERNATIONAL CONFERENCE AND 49TH ANNUAL CONFERENCE</h2>
-<section id="asaba-delta-state-september-2226-2025" class="level3">
-<h3 class="anchored" data-anchor-id="asaba-delta-state-september-2226-2025">Asaba, Delta State | September 22–26, 2025</h3>
-<p>The <strong>2nd CISON International Conference and 49th Annual Conference of the Chartered Institute of Statisticians of Nigeria (CISON)</strong> was successfully held from <strong>September 22 to September 26, 2025</strong>, at the <strong>Dome Event Centre, Asaba, Delta State</strong>.</p>
-<p>The conference was preceded by a highly relevant pre-conference programme titled <strong>“Big Data Analytics and Machine Learning: Methods and Applications.”</strong> The session provided participants with practical and conceptual insights into contemporary analytical methods, machine-learning techniques, and their applications across research, public administration, business, regulation, and national development. It served as an appropriate foundation for the main conference discussions and reflected the growing importance of advanced analytics in modern statistical practice.</p>
-<p>As both a participant and reporter at the conference, I found the gathering highly significant, intellectually stimulating, and professionally rewarding. It brought together statisticians, researchers, academics, policymakers, government officials, data professionals, students, and other stakeholders from across Nigeria and beyond to deliberate on the expanding role of data and analytics in national development.</p>
-<p>The conference, themed <strong>“Big Data and Analytics in Nigeria: Developing a National Data Ecosystem for Enhanced National Prosperity,”</strong> provided a timely platform for discussing how Nigeria can strengthen its statistical and data infrastructure to support evidence-based policymaking, development planning, economic management, institutional effectiveness, and sustainable national prosperity.</p>
-<p>A notable feature of the conference was the participation of a delegation from the <strong>National Agency for Food and Drug Administration and Control (NAFDAC)</strong>. The Agency was represented by <strong>myself, Aare Yusuf Akintunde Azeez, from Lagos; Mrs.&nbsp;Alegbe; Mr.&nbsp;Felix Temange; Hajia Mariam; and Mr.&nbsp;Mujaya from Abuja</strong>. Our participation provided an opportunity to engage with emerging developments in statistics, data analytics, and machine learning, while also interacting with professionals from academia, government institutions, regulatory agencies, and the private sector. The conference was particularly relevant to NAFDAC’s increasing reliance on data-driven approaches to research, surveillance, regulatory intelligence, monitoring, and decision-making.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="image/group.jpeg" class="img-fluid figure-img"></p>
-<figcaption>group photograph of participants at Asaba onference</figcaption>
-</figure>
-</div>
-<p>The conference featured several activities beyond formal paper presentations and technical sessions. There were professional engagements, interactive discussions, networking sessions, knowledge-sharing opportunities, and social activities that enabled participants to reconnect, exchange ideas, and strengthen professional relationships. These activities contributed significantly to the success of the conference and created an atmosphere of intellectual engagement and professional fellowship.</p>
-<p>The <strong>Lagos State Chapter of CISON</strong> was also prominently represented throughout the conference. Members actively participated in the various technical and social activities, reflecting the Chapter’s commitment to the advancement of the statistical profession. Several photographs were taken by members of the Lagos Chapter to document memorable moments, professional interactions, and the collective participation of members during the conference.</p>
-<p>Another important aspect of the gathering was the presence of <strong>many distinguished professors, senior academics, researchers, and experienced practitioners</strong> from various universities and institutions. Their participation added considerable intellectual depth to the proceedings. The interaction between senior scholars and younger professionals provided opportunities for mentoring, knowledge exchange, collaboration, and exposure to emerging statistical ideas and research methodologies.</p>
-<p>One of the strongest messages from the conference was that <strong>Nigeria’s development aspirations cannot be effectively achieved without credible, timely, accessible, and properly coordinated data</strong>. In an era in which data has become a strategic national resource, the quality of decisions made by governments, businesses, regulatory institutions, and development organisations increasingly depends on the quality and reliability of available information.</p>
-<p>The Executive Governor of Delta State, <strong>Rt. Hon.&nbsp;Sheriff Oborevwori</strong>, as host of the conference, emphasised the importance of developing a robust national data infrastructure capable of supporting effective governance and national development. His message reinforced the need for governments at all levels to recognise statistics not merely as an administrative exercise but as a critical instrument for planning, resource allocation, performance measurement, accountability, and policy formulation.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="image/LASUSTech.jpeg" class="img-fluid figure-img"></p>
-<figcaption>LASUSTech staff and myself</figcaption>
-</figure>
-</div>
-<p>The conference also featured important contributions from the President of the Chartered Institute of Statisticians of Nigeria, <strong>Dr.&nbsp;Ebuh Godday</strong>, who highlighted the professional responsibilities of statisticians in strengthening Nigeria’s evolving data ecosystem. His address underscored the importance of professional competence, ethical statistical practice, capacity development, and the greater utilisation of statistical evidence in both public and private sector decision-making.</p>
-<p>Also prominent was the participation of the <strong>Statistician-General of the Federation, Prince Adeyemi Adeniran</strong>, whose presence further demonstrated the central role of official statistics in national planning and development. Contributions from representatives of institutions including the <strong>Central Bank of Nigeria</strong> and the <strong>Federal Ministry of Education</strong> broadened the discourse and demonstrated the relevance of data and analytics across virtually every sector of national life.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="image/Prof.jpeg" class="img-fluid figure-img"></p>
-<figcaption>Myself and prof Kazeem Obisesan</figcaption>
-</figure>
-</div>
-<p>Throughout the conference, discussions focused on the opportunities presented by <strong>big data, data analytics, artificial intelligence, machine learning, and modern statistical techniques</strong>, while also recognising significant challenges such as data fragmentation, inadequate infrastructure, capacity gaps, inconsistent data standards, limited institutional collaboration, and the need for stronger data governance frameworks.</p>
-<p>As a practising Statistician, the conference was particularly enriching. It provided an opportunity not only to listen to leading professionals, professors, policymakers, and researchers, but also to interact with colleagues, exchange ideas, establish professional contacts, and reflect on the changing responsibilities of statisticians in an increasingly data-driven world.</p>
-<p>One major takeaway for me was that the future of Statistics extends far beyond the traditional collection, tabulation, and presentation of figures. The modern Statistician must increasingly possess the capacity to <strong>transform large and complex datasets into actionable intelligence, identify patterns and risks, apply machine-learning and analytical techniques, communicate findings effectively, and provide evidence that can guide policy and strategic decisions</strong>.</p>
-<p>The conference equally highlighted the need for stronger collaboration among the <strong>National Bureau of Statistics, government ministries and agencies, regulatory institutions, universities, research organisations, professional bodies, private-sector organisations, and technology companies</strong>. A functional national data ecosystem cannot thrive where institutions operate in isolation. Data must be integrated, harmonised, properly governed, and utilised in a manner that promotes quality, accessibility, security, interoperability, and responsible use.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="image/Isa.jpeg" class="img-fluid figure-img"></p>
-<figcaption>Isah avery long time friend at Dome, Asaba</figcaption>
-</figure>
-</div>
-<p>The five-day gathering in Asaba was therefore more than an annual professional conference. It represented an important national conversation about the future of Nigeria’s data architecture and the responsibility of statisticians in shaping that future. It was equally a celebration of professional fellowship, academic excellence, research, innovation, and the growing relevance of Statistics in national development.</p>
-<p>For me as a participant and member of the NAFDAC delegation, the experience further strengthened my conviction that <strong>data must move from the background of institutional and national decision-making to the centre of policy, planning, regulation, and development</strong>. Nigeria possesses enormous volumes of administrative, economic, health, educational, regulatory, demographic, and commercial data. The major task before us is to transform these scattered data resources into reliable knowledge capable of improving governance, institutional performance, and the lives of citizens.</p>
-<p>The <strong>2nd CISON International Conference and 49th Annual Conference</strong> ultimately provided an excellent platform for professional networking, intellectual engagement, academic interaction, institutional collaboration, capacity development, and renewed advocacy for a stronger national statistical system.</p>
-<p>As Nigeria advances further into the era of <strong>Big Data, Artificial Intelligence, Machine Learning, and digital transformation</strong>, the message from Asaba remains both timely and compelling: <strong>a nation that seeks sustainable prosperity must first understand itself through credible data.</strong></p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="image/Aare.jpeg" class="img-fluid figure-img"></p>
-<figcaption>At Dome, Asaba @ CISON Conference</figcaption>
-</figure>
-</div>
-<p>The responsibility therefore rests on statisticians, researchers, academics, regulators, policymakers, and institutions to build a national data ecosystem in which evidence becomes the foundation of planning, regulation, innovation, and development rather than an afterthought.</p>
-<p><strong>Reported by:</strong><br>
-<strong>Aare Yusuf Akintunde Azeez</strong><br>
-<em>Statistician | Data Analyst | Researcher</em><br>
-<em>NAFDAC Representative and Participant</em><br>
-<em>2nd CISON International Conference &amp; 49th Annual Conference</em><br>
-<strong>Asaba, Delta State — September 2025</strong></p>
 
 
-</section>
-</section>
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1792652947768" data-listing-reading-time-sort="10" data-listing-word-count-sort="1999">
+<div class="thumbnail"><a href="../../event/CISON/CISON @ 50/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../event/CISON/CISON @ 50/index.html" class="no-external">CISON @ 50th Anniversary</a>
+</h3>
+<div class="delink listing-description"><a href="../../event/CISON/CISON @ 50/index.html" class="no-external">
+<strong>When statisticians gather to celebrate fifty years of professional excellence, even the numbers must stand at attention!</strong>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../../event/CISON/CISON @ 50/index.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-listing-file-modified-sort="1792652653585" data-listing-reading-time-sort="7" data-listing-word-count-sort="1228">
+<div class="thumbnail"><a href="../../event/CISON/CISON 2025/index.html" class="no-external">
+
+<p class="card-img-top"><img loading='lazy' src="CISON 2025\image\group.jpeg"  class="thumbnail-image card-img"/></p>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../event/CISON/CISON 2025/index.html" class="no-external">CISON 49TH Conference</a>
+</h3>
+<div class="delink listing-description"><a href="../../event/CISON/CISON 2025/index.html" class="no-external">
+The <strong>2nd CISON International Conference and 49th Annual Conference of the Chartered Institute of Statisticians of Nigeria (CISON)</strong> was successfully held from <strong>September 22 to…</strong><strong></strong>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../../event/CISON/CISON 2025/index.html" class="no-external">
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right

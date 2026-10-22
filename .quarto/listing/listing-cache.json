@@ -1,12 +1,16 @@
 {
   "listingMap": {
+    "event\\CISON\\index.qmd": [
+      "CISON @ 50/index.qmd",
+      "CISON 2025/index.qmd"
+    ],
     "event\\index.qmd": [
       "CISON/index.qmd",
+      "Regberegbe/index.qmd",
       "BBVF/index.qmd",
       "DRMC/index.qmd",
       "Elites/index.qmd",
-      "Ijebunimi/index.qmd",
-      "Regberegbe/index.qmd"
+      "Ijebunimi/index.qmd"
     ],
     "Training\\index.qmd": [
       "assignment/index.qmd",
