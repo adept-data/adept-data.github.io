@@ -5,6 +5,7 @@ listing:
   contents:
     - "CISON/index.qmd"
     - "Regberegbe/index.qmd"
+    - "IPM/index.qmd"
     - "BBVF/index.qmd"
     - "DRMC/index.qmd"
     - "Elites/index.qmd"

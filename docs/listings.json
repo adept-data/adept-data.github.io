@@ -8,21 +8,22 @@
     ]
   },
   {
-    "listing": "/event/CISON/index.html",
-    "items": [
-      "/event/CISON/CISON @ 50/index.html",
-      "/event/CISON/CISON 2025/index.html"
-    ]
-  },
-  {
     "listing": "/event/index.html",
     "items": [
       "/event/CISON/index.html",
       "/event/Regberegbe/index.html",
+      "/event/IPM/index.html",
       "/event/BBVF/index.html",
       "/event/DRMC/index.html",
       "/event/Elites/index.html",
       "/event/Ijebunimi/index.html"
+    ]
+  },
+  {
+    "listing": "/event/CISON/index.html",
+    "items": [
+      "/event/CISON/CISON @ 50/index.html",
+      "/event/CISON/CISON 2025/index.html"
     ]
   }
 ]
