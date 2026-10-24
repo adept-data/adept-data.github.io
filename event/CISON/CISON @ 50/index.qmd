@@ -256,7 +256,7 @@ Long live the Federal Republic of Nigeria! 🇳🇬
 
 **Conference documents and reference links**
 
-- [Download CISON 50th Anniversary Brochure](Brochure.pdf){target="_blank"}
+- [Download CISON 50th Anniversary Brochure](BB.pdf){target="_blank"}
 - [Download CISON Communique](communique.pdf){target="_blank"}
 - [Download Vice President of Nigeria Speech](VPN-Speech.pdf){target="_blank"}
 - [Download Statistician General of the Federation Speech](SG-Speech.pdf){target="_blank"}
